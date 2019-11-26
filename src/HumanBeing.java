@@ -4,7 +4,7 @@ public class HumanBeing {
 	public String name;
 	public double age;
 	public String[] friends ;
-	private int BSN; //This will not be inherited in the base class
+	 //This will not be inherited in the base class
 		
 	
 	
