@@ -19,12 +19,14 @@ public class ExecuteHumanBeing{
 		c.see();
 		c.tellMeYourAge();
 		c.friends=new String[] {"Varun","Hutchy","Uday"};
-		for(int i=0; i<c.friends.length;i++) {
-			//System.out.println(c.friends[i]);
+		//for(int i=0; i<c.friends.length;i++) {
+			System.out.println("name is : " + c.getName() );
 			
 			
 			
-		}
+		String object = new String();
+		object = c.getName();
+		System.out.println(object);
 		
 		Man Abhishek = new Man();
 		Abhishek.name= "KNS";
